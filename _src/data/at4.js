@@ -74,7 +74,7 @@ module.exports = {
       objectives: ["Menggunakan kata keterangan waktu semalam, hari ini, esok, kelmarin dan lusa dengan betul||ใช้คำบอกเวลา semalam, hari ini, esok, kelmarin, lusa ได้ถูกต้อง", "Menulis ayat tentang aktiviti mengikut waktu||เขียนประโยคบอกกิจกรรมตามเวลาได้"],
       sections: [
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["kelmarin", "เมื่อวานซืน"], ["semalam", "เมื่อวาน"], ["hari ini", "วันนี้"], ["esok", "พรุ่งนี้"], ["lusa", "มะรืนนี้"]] },
+          { type: "vocab", rows: [["kelmarin", "کلمارين", "เมื่อวานซืน"], ["semalam", "سمالم", "เมื่อวาน"], ["hari ini", "هاري اين", "วันนี้"], ["esok", "ايسوق", "พรุ่งนี้"], ["lusa", "لوسا", "มะรืนนี้"]] },
           { type: "pattern", lines: [
             "**Semalam** saya pergi ke pasar.||เมื่อวานฉันไปตลาด",
             "**Hari ini** hari Jumaat.||วันนี้วันศุกร์",
@@ -99,7 +99,7 @@ module.exports = {
       objectives: ["Membaca dan menulis perkataan tentang makanan dan rasa||อ่านและเขียนคำศัพท์เกี่ยวกับอาหารและรสชาติได้", "Bertutur dan menulis ayat tentang makanan kegemaran||พูดและเขียนประโยคเกี่ยวกับอาหารที่ชอบได้"],
       sections: [
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["nasi", "ข้าว"], ["roti", "ขนมปัง โรตี"], ["ikan", "ปลา"], ["sayur", "ผัก"], ["buah", "ผลไม้"], ["air", "น้ำ"], ["sedap", "อร่อย"], ["manis", "หวาน"], ["masin", "เค็ม"], ["pedas", "เผ็ด"], ["lapar", "หิว"], ["kenyang", "อิ่ม"]] },
+          { type: "vocab", rows: [["nasi", "ناسي", "ข้าว"], ["roti", "روتي", "ขนมปัง โรตี"], ["ikan", "ايکن", "ปลา"], ["sayur", "سايور", "ผัก"], ["buah", "بواه", "ผลไม้"], ["air", "اير", "น้ำ"], ["sedap", "سدڤ", "อร่อย"], ["manis", "مانيس", "หวาน"], ["masin", "ماسين", "เค็ม"], ["pedas", "ڤدس", "เผ็ด"], ["lapar", "لاڤر", "หิว"], ["kenyang", "کڽڠ", "อิ่ม"]] },
         ] },
         { title: "Mari bertutur  มาพูดกันเถอะ", blocks: [
           { type: "dialog", lines: [
@@ -154,7 +154,7 @@ module.exports = {
       objectives: ["Membaca dan menulis nama tempat||อ่านและเขียนชื่อสถานที่ได้", "Menggunakan kata sendi nama di, ke dan dari dengan tempat secara betul||ใช้คำบุพบท di, ke, dari กับสถานที่ได้ถูกต้อง"],
       sections: [
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["masjid", "มัสยิด"], ["surau", "สุเหร่า"], ["sekolah", "โรงเรียน"], ["rumah", "บ้าน"], ["pasar", "ตลาด"], ["kedai", "ร้านค้า"], ["hospital", "โรงพยาบาล"], ["padang", "สนาม"], ["kampung", "หมู่บ้าน"], ["bandar", "เมือง"]] },
+          { type: "vocab", rows: [["masjid", "مسجد", "มัสยิด"], ["surau", "سوراو", "สุเหร่า"], ["sekolah", "سکوله", "โรงเรียน"], ["rumah", "رومه", "บ้าน"], ["pasar", "ڤاسر", "ตลาด"], ["kedai", "کداي", "ร้านค้า"], ["hospital", "هوسڤيتل", "โรงพยาบาล"], ["padang", "ڤادڠ", "สนาม"], ["kampung", "کامڤوڠ", "หมู่บ้าน"], ["bandar", "بندر", "เมือง"]] },
           { type: "pattern", title: "di • ke • dari", lines: [
             "**di** = tempat berada  →  Ayah solat **di** masjid.||**di** = ที่ (อยู่ที่)",
             "**ke** = arah tujuan  →  Saya pergi **ke** sekolah.||**ke** = ไปยัง",
@@ -204,7 +204,7 @@ module.exports = {
       sections: [
         { title: "Apakah kata kerja?  คำกริยาคืออะไร", blocks: [
           { type: "p", text: "**Kata kerja** ialah perkataan yang menyatakan perbuatan atau keadaan.||**Kata kerja** (คำกริยา) คือคำที่บอกการกระทำหรือสภาพ" },
-          { type: "vocab", noJawi: true, rows: [["mandi", "อาบน้ำ"], ["makan", "กิน"], ["minum", "ดื่ม"], ["tidur", "นอน"], ["membaca", "อ่าน"], ["menulis", "เขียน"], ["berjalan", "เดิน"], ["bersolat", "ละหมาด"], ["lapar", "หิว"], ["dahaga", "กระหายน้ำ"]] },
+          { type: "vocab", rows: [["mandi", "مندي", "อาบน้ำ"], ["makan", "ماکن", "กิน"], ["minum", "مينوم", "ดื่ม"], ["tidur", "تيدور", "นอน"], ["membaca", "ممباچ", "อ่าน"], ["menulis", "منوليس", "เขียน"], ["berjalan", "برجالن", "เดิน"], ["bersolat", "برصلاة", "ละหมาด"], ["lapar", "لاڤر", "หิว"], ["dahaga", "دهاݢا", "กระหายน้ำ"]] },
           { type: "pattern", lines: [
             "subjek + **kata kerja**  →  Adik **tidur**.||ประธาน + **กริยา**",
             "subjek + **kata kerja** + objek  →  Kakak **membaca** al-Quran.||ประธาน + **กริยา** + กรรม",
@@ -226,7 +226,7 @@ module.exports = {
       sections: [
         { title: "Apakah kata sifat?  คำวิเศษณ์คืออะไร", blocks: [
           { type: "p", text: "**Kata sifat** ialah perkataan yang menerangkan sifat kata nama, seperti warna, saiz, perasaan dan perangai.||**Kata sifat** คือคำที่บอกลักษณะของคำนาม เช่น สี ขนาด ความรู้สึก นิสัย" },
-          { type: "vocab", noJawi: true, rows: [["putih", "ขาว"], ["hitam", "ดำ"], ["besar", "ใหญ่"], ["kecil", "เล็ก"], ["bersih", "สะอาด"], ["kotor", "สกปรก"], ["rajin", "ขยัน"], ["malas", "ขี้เกียจ"], ["penat", "เหนื่อย"], ["gembira", "ดีใจ"]] },
+          { type: "vocab", rows: [["putih", "ڤوتيه", "ขาว"], ["hitam", "هيتم", "ดำ"], ["besar", "بسر", "ใหญ่"], ["kecil", "کچيل", "เล็ก"], ["bersih", "برسيه", "สะอาด"], ["kotor", "کوتور", "สกปรก"], ["rajin", "راجين", "ขยัน"], ["malas", "مالس", "ขี้เกียจ"], ["penat", "ڤنت", "เหนื่อย"], ["gembira", "ݢمبيرا", "ดีใจ"]] },
           { type: "pattern", title: "Kedudukan kata sifat||ตำแหน่งของ kata sifat", lines: [
             "kata nama + **kata sifat**  →  baju **putih**, masjid **besar**||คำนาม + **คำวิเศษณ์**  →  baju **putih** (เสื้อสีขาว), masjid **besar** (มัสยิดใหญ่)",
             "subjek + **sangat** + kata sifat  →  Murid itu **sangat rajin**.||ประธาน + **sangat** + คำวิเศษณ์",
@@ -257,7 +257,7 @@ module.exports = {
           ] },
         ] },
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["fardu", "ฟัรฎู (จำเป็น)"], ["sunat", "สุนัต (ส่งเสริมให้ทำ)"], ["rakaat", "ร็อกอัต"], ["pahala", "ผลบุญ"]] },
+          { type: "vocab", rows: [["fardu", "فرض", "ฟัรฎู (จำเป็น)"], ["sunat", "سنة", "สุนัต (ส่งเสริมให้ทำ)"], ["rakaat", "رکعة", "ร็อกอัต"], ["pahala", "ڤهالا", "ผลบุญ"]] },
         ] },
       ],
       latihan: [
@@ -308,7 +308,7 @@ module.exports = {
           ] },
         ] },
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["aurat", "เอาเราะฮ์ อวัยวะที่ต้องปกปิด"], ["menutup", "ปกปิด"], ["pusat", "สะดือ"], ["lutut", "หัวเข่า"], ["muka", "ใบหน้า"], ["tapak tangan", "ฝ่ามือ"], ["tudung", "ผ้าคลุมศีรษะ"], ["baju kurung", "ชุดบาจูกูรง"], ["kain sarung", "ผ้าโสร่ง"], ["seluar panjang", "กางเกงขายาว"]] },
+          { type: "vocab", rows: [["aurat", "عورة", "เอาเราะฮ์ อวัยวะที่ต้องปกปิด"], ["menutup", "منوتوڤ", "ปกปิด"], ["pusat", "ڤوست", "สะดือ"], ["lutut", "لوتوت", "หัวเข่า"], ["muka", "موک", "ใบหน้า"], ["tapak tangan", "تاڤق تاڠن", "ฝ่ามือ"], ["tudung", "تودوڠ", "ผ้าคลุมศีรษะ"], ["baju kurung", "باجو کوروڠ", "ชุดบาจูกูรง"], ["kain sarung", "کاين ساروڠ", "ผ้าโสร่ง"], ["seluar panjang", "سلوار ڤنجڠ", "กางเกงขายาว"]] },
           { type: "pattern", lines: [
             "Kakak **memakai tudung** untuk menutup aurat.",
             "Ayah **memakai kain sarung** semasa solat.",
